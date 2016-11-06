@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Import Google Icon Font-->
+    <meta charset="utf-8">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/share.css">
+    <link rel="stylesheet" type="text/css" href="css/contacto.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <title>Cartagonova</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <!--Import jQuery before materialize.js-->
+    <div class="navbar-fixed">
+    <ul id="dropdown1" class="dropdown-content grey lighten-3 border-dropdown">
+      <li class="sub"><a href="video.html" class="black-text font-bold">Video</a></li>
+      <li class="sub"><a href="galeria.html" class="black-text font-bold">Galeria</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content grey lighten-3 border-dropdown">
+      <li class="sub"><a href="banda.html" class="black-text font-bold">Biografía</a></li>
+      <li class="sub"><a href="banda2.html" class="black-text font-bold">Miembros</a></li>
+    </ul>
+    <nav class="menu menu-principal">
+      <div class="nav-wrapper grey lighten-2 nav-border">
+        <a href="index.html" class="brand-logo black-text font-bold">CARTAGONOVA</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+        <ul class="right hide-on-med-and-down menu__list">
+          <li class="menu__item"><a class="black-text font-bold menu__link" href="index.html">Inicio</a></li>
+          <li class="menu__item"><a class="black-text font-bold menu__link dropdown-button" href="#!" data-activates="dropdown2">La banda</a></li>
+          <li class="menu__item"><a class="black-text font-bold menu__link dropdown-button" href="#!" data-activates="dropdown1">Media</a></li>
+          <li class="menu__item"><a class="black-text font-bold menu__link" href="letras.html">Letras</a></li>
+          <li class="active menu__item"><a class="black-text font-bold menu__link" href="contacto.html">Contacto</a></li>
+        </ul>
+        <ul class="side-nav collapsible" id="mobile-demo">
+          <li><a class="font-bold" href="index.html">Inicio</a></li>
+          <li><a class="font-bold collapsible-header waves-effect waves-red">La banda</a>
+            <div class="collapsible-body">
+              <ul>
+                  <li>
+                    <a class="bold" href="banda.html">Biografía</a>
+                  </li>
+                  <li>
+                    <a class="bold" href="banda2.html">Miembros</a>
+                  </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="font-bold collapsible-header waves-effect waves-red" >Media</a>
+            <div class="collapsible-body">
+              <ul>
+                  <li>
+                    <a class="bold" href="video.html">Video</a>
+                  </li>
+                  <li>
+                    <a class="bold" href="galeria.html">Galeria</a>
+                  </li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="font-bold" href="letras.html">Letras</a></li>
+          <li class="active"><a class="font-bold" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <main>
+    <div class="row">
+      <div class="">
+  				<div class="grid__item color-4">
+    				<a class="link link--kumya" href="#"><span data-letters="CARTAGONOVA">CARTAGONOVA</span></a>
+    			</div>
+      </div>
+    </div>
+  </main>
+  <section>
+    <div class="row  fondo-lineal">
+      <div class="col s12">
+        <div class="container pd-25">
+          <div class="row  waves-effect waves-light bienvenidos center">
+            <div class="col s12  center-align">
+              Contacto
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+        <div class="row valign-wrapper">
+            <div class="cont-contactBtn col s12 m6 valign pd-0">
+                <div class="cont-flip">
+                    <div class="front">
+                        <a href="#" class="btn2 black-text grey lighten-2 flip">Enviar Mensaje</a>
+                    </div>
+                    <div class="back">
+                        <a href="#" class="flip close"></a>
+                        <form class="contact-form" action="">
+                            <input type="text" placeholder="Nombre" required>
+                            <input type="text" placeholder="Email" required>
+                            <textarea name="" id="" placeholder="Deje su mensaje" required></textarea>
+                              <button class="btn waves-effect waves-light white black-text" type="submit" name="action">Enviar
+                                <i class="material-icons right">send</i>
+                              </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+<footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col  s12">
+          <h5 class="white-text center bold uppercase element-to-animate" id="siguenos">Siguenos</h5>
+    			<div class="content">
+    				<div class="share">
+    					<button class="share-toggle-button  white">
+    						<i class="share-icon fa fa-share-alt"></i>
+    					</button>
+    					<ul class="share-items">
+    						<li class="share-item">
+    							<a href="#" class="share-button white">
+    								<i class="share-icon fa fa-facebook"></i>
+    							</a>
+    						</li>
+    						<li class="share-item">
+    							<a href="#" class="share-button white">
+    								<i class="share-icon fa fa-twitter"></i>
+    							</a>
+    						</li>
+    						<li class="share-item">
+    							<a href="#" class="share-button white">
+    								<i class="share-icon fa fa-pinterest"></i>
+    							</a>
+    						</li>
+    						<li class="share-item">
+    							<a href="#" class="share-button white">
+    								<i class="share-icon fa fa-tumblr"></i>
+    							</a>
+    						</li>
+    					</ul>
+    				</div>
+    			</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright footer-border">
+      <div class="center-align">
+      Terms of Use Privacy Policy Support ©2016 Cartagonova™ All rights reserved
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script type="text/javascript" src="js/share.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
