@@ -21,7 +21,6 @@ $.fn.extend({
 });
 
 $('.flip').click(function(){
-  console.log("flip");
   $('.cont-flip').toggleClass('flipped');
   return false;
 });
@@ -35,6 +34,7 @@ $('#element4').css('opacity', 0);
 $('.bienvenidos').css('opacity', 0);
 $('.cont-contactBtn').css('opacity', 0);
 $('.card-container').css('opacity', 0);
+$('.zoom').css('opacity', 0);
 
 $('.bienvenidos').waypoint(function() {
     $('.bienvenidos').addClass('animated fadeInUp');
@@ -57,12 +57,12 @@ $('#element2').waypoint(function() {
 }, { offset: '50%' });
 
 $('#element3').waypoint(function() {
-    $('#element3').addClass('animated fadeInLeft');
+    $('#element3').addClass('animated zoomIn');
     $('#element3').css('opacity', 1);
 }, { offset: '50%' });
 
 $('#element4').waypoint(function() {
-    $('#element4').addClass('animated fadeInRight');
+    $('#element4').addClass('animated zoomIn');
     $('#element4').css('opacity', 1);
 }, { offset: '50%' });
 
@@ -74,3 +74,8 @@ $('.card-container').waypoint(function() {
 $("#siguenos").waypoint(function() {
   $("#siguenos").animateCss('rubberBand');
 }, { offset: '100%' });
+
+$('.zoom').waypoint(function() {
+    $('.zoom').addClass('animated zoomIn');
+    $('.zoom').css('opacity', 1);
+}, { offset: '50%' });
