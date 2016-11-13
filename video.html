@@ -22,6 +22,49 @@
   </head>
 
   <body>
+  <div id="preload" class="preloader">
+       <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="spinner-layer spinner-red">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="spinner-layer spinner-yellow">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="spinner-layer spinner-green">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+  </div>
     <!--Import jQuery before materialize.js-->
     <div class="navbar-fixed">
     <ul id="dropdown1" class="dropdown-content grey lighten-3 border-dropdown">
@@ -177,5 +220,9 @@
   <script type="text/javascript" src="js/index.js"></script>
   <script type="text/javascript" src="js/classie.js"></script>
   <script type="text/javascript" src="js/video.js"></script>
+  <script type="text/javascript">
+    var loader = document.getElementById("preload");
+    loader.style.display = 'none';
+  </script>
   </body>
 </html>

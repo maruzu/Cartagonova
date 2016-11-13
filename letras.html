@@ -21,60 +21,102 @@
   </head>
 
   <body>
-    <!--Import jQuery before materialize.js-->
-<div class="navbar-fixed">
-<ul id="dropdown1" class="dropdown-content grey lighten-3 border-dropdown">
-  <li class="sub"><a href="video.html" class="black-text font-bold">Video</a></li>
-  <li class="sub"><a href="galeria.html" class="black-text font-bold">Galeria</a></li>
-</ul>
-<ul id="dropdown2" class="dropdown-content grey lighten-3 border-dropdown">
-  <li class="sub"><a href="historia.html" class="black-text font-bold">Historia</a></li>
-  <li class="sub"><a href="integrantes.html" class="black-text font-bold">Integrantes</a></li>
-</ul>
-<nav class="menu menu-principal">
-  <div class="nav-wrapper grey lighten-2 nav-border">
-    <a href="index.html" class="brand-logo black-text font-bold">CARTAGONOVA</a>
-    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
-    <ul class="right hide-on-med-and-down menu__list">
-      <li class="menu__item"><a class="black-text font-bold menu__link" href="index.html">Inicio</a></li>
-      <li class="menu__item"><a class="black-text font-bold menu__link dropdown-button" href="#!" data-activates="dropdown2">La banda</a></li>
-      <li class="menu__item"><a class="black-text font-bold menu__link dropdown-button" href="#!" data-activates="dropdown1">Media</a></li>
-      <li class="active menu__item"><a class="black-text font-bold menu__link" href="letras.html">Letras</a></li>
-      <li class="menu__item"><a class="black-text font-bold menu__link" href="contacto.html">Contacto</a></li>
-    </ul>
-    <ul class="side-nav collapsible" id="mobile-demo">
-      <li><a class="font-bold" href="index.html">Inicio</a></li>
-      <li><a class="font-bold collapsible-header waves-effect waves-red">La banda</a>
-        <div class="collapsible-body">
-          <ul>
-              <li>
-                <a class="bold" href="historia.html">Historia</a>
-              </li>
-              <li>
-                <a class="bold" href="integrantes.html">Integrantes</a>
-              </li>
-          </ul>
+    <div id="preload" class="preloader">
+         <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-yellow">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-green">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
         </div>
-      </li>
-      <li>
-        <a class="font-bold collapsible-header waves-effect waves-red" >Media</a>
-        <div class="collapsible-body">
-          <ul>
-              <li>
-                <a class="bold" href="video.html">Video</a>
-              </li>
-              <li>
-                <a class="bold" href="galeria.html">Galeria</a>
-              </li>
-          </ul>
-        </div>
-      </li>
-      <li class="active"><a class="font-bold" href="letras.html">Letras</a></li>
-      <li><a class="font-bold" href="contacto.html">Contacto</a></li>
+    </div>
+  <div class="navbar-fixed">
+    <ul id="dropdown1" class="dropdown-content grey lighten-3 border-dropdown">
+      <li class="sub"><a href="video.html" class="black-text font-bold">Video</a></li>
+      <li class="sub"><a href="galeria.html" class="black-text font-bold">Galeria</a></li>
     </ul>
+    <ul id="dropdown2" class="dropdown-content grey lighten-3 border-dropdown">
+      <li class="sub"><a href="historia.html" class="black-text font-bold">Historia</a></li>
+      <li class="sub"><a href="integrantes.html" class="black-text font-bold">Integrantes</a></li>
+    </ul>
+    <nav class="menu menu-principal">
+      <div class="nav-wrapper grey lighten-2 nav-border">
+        <a href="index.html" class="brand-logo black-text font-bold">CARTAGONOVA</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+        <ul class="right hide-on-med-and-down menu__list">
+          <li class="menu__item"><a class="black-text font-bold menu__link" href="index.html">Inicio</a></li>
+          <li class="menu__item"><a class="black-text font-bold menu__link dropdown-button" href="#!" data-activates="dropdown2">La banda</a></li>
+          <li class="menu__item"><a class="black-text font-bold menu__link dropdown-button" href="#!" data-activates="dropdown1">Media</a></li>
+          <li class="active menu__item"><a class="black-text font-bold menu__link" href="letras.html">Letras</a></li>
+          <li class="menu__item"><a class="black-text font-bold menu__link" href="contacto.html">Contacto</a></li>
+        </ul>
+        <ul class="side-nav collapsible" id="mobile-demo">
+          <li><a class="font-bold" href="index.html">Inicio</a></li>
+          <li><a class="font-bold collapsible-header waves-effect waves-red">La banda</a>
+            <div class="collapsible-body">
+              <ul>
+                  <li>
+                    <a class="bold" href="historia.html">Historia</a>
+                  </li>
+                  <li>
+                    <a class="bold" href="integrantes.html">Integrantes</a>
+                  </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="font-bold collapsible-header waves-effect waves-red" >Media</a>
+            <div class="collapsible-body">
+              <ul>
+                  <li>
+                    <a class="bold" href="video.html">Video</a>
+                  </li>
+                  <li>
+                    <a class="bold" href="galeria.html">Galeria</a>
+                  </li>
+              </ul>
+            </div>
+          </li>
+          <li class="active"><a class="font-bold" href="letras.html">Letras</a></li>
+          <li><a class="font-bold" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
-</nav>
-</div>
   <main>
     <div class="row">
       <div class="">
@@ -270,6 +312,8 @@
   <script type="text/javascript" src="js/menu.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
   <script type="text/javascript">
+    var loader = document.getElementById("preload");
+    loader.style.display = 'none';
     $('.collapsible').collapsible({
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
