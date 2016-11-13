@@ -41,7 +41,7 @@ $('.bienvenidos').css('opacity', 0);
 $('.rotaciones').css('opacity', 0);
 $('.cont-contactBtn').css('opacity', 0);
 $('.card-container').css('opacity', 0);
-$('.collapsible').css('opacity', 0);
+$('.acordion').css('opacity', 0);
 $('.zoom').css('opacity', 0);
 $('#content').css('opacity', 0);
 $('#miembros').css('opacity', 0);
