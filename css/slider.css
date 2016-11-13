@@ -37,11 +37,10 @@
 .color-2 { background: #576b67; }
 .color-3 { background: #383A35; }
 .color-4 {
-  background: #333;
-    background-image: url(../media/img/DSC03995.JPG);
+  	background: #0b0c0e;
+    background-image: url(../media/img/muestra.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-size: cover;
    }
 .color-5 { background: #fda9a9; }

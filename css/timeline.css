@@ -112,6 +112,7 @@ Responsive Stuff
   .timeline .event::before {
     left: 0.5px;
     top: 20px;
+    color: #333;
     min-width: 0;
     font-size: 13px;
   }
