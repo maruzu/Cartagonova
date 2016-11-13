@@ -371,6 +371,8 @@
   <script type="text/javascript">
     (function() {
       var loader = document.getElementById("preload");
+      var html = document.querySelector("html");
+      html.style.overflowY = 'auto';
       loader.style.display = 'none';
 			var support = { transitions: Modernizr.csstransitions },
 				// transition end event name

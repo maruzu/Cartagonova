@@ -1,6 +1,7 @@
 html{
   font-family: 'Rubik', sans-serif !important;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .brand-logo{
