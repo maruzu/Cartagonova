@@ -41,6 +41,7 @@ $('.bienvenidos').css('opacity', 0);
 $('.rotaciones').css('opacity', 0);
 $('.cont-contactBtn').css('opacity', 0);
 $('.card-container').css('opacity', 0);
+$('.collapsible').css('opacity', 0);
 $('.zoom').css('opacity', 0);
 $('#content').css('opacity', 0);
 $('#miembros').css('opacity', 0);
@@ -58,6 +59,10 @@ $('.rotaciones').waypoint(function() {
     $('.rotaciones').css('opacity', 1);
 }, { offset: '50%' });
 
+$('.acordion').waypoint(function() {
+    $('.acordion').addClass('animated fadeInDown');
+    $('.acordion').css('opacity', 1);
+}, { offset: '50%' });
 
 $('.cont-contactBtn').waypoint(function() {
     $('.cont-contactBtn').addClass('animated fadeInDown');
