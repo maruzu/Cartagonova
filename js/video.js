@@ -20,7 +20,6 @@
 
 	function init() {
 		initEvents();
-    console.log("entro");
 	}
 
 	function initEvents() {

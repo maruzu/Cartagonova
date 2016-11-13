@@ -32,18 +32,35 @@ $('#element2').css('opacity', 0);
 $('#element3').css('opacity', 0);
 $('#element4').css('opacity', 0);
 $('.bienvenidos').css('opacity', 0);
+$('.rotaciones').css('opacity', 0);
 $('.cont-contactBtn').css('opacity', 0);
 $('.card-container').css('opacity', 0);
 $('.zoom').css('opacity', 0);
+$('#content').css('opacity', 0);
+$('#miembros').css('opacity', 0);
+$('.miembro1 .miembro2 .miembro3 .miembro4').css('opacity', 0);
+
 
 $('.bienvenidos').waypoint(function() {
     $('.bienvenidos').addClass('animated fadeInUp');
     $('.bienvenidos').css('opacity', 1);
 }, { offset: '50%' });
 
+
+$('.rotaciones').waypoint(function() {
+    $('.rotaciones').addClass('animated fadeInUp');
+    $('.rotaciones').css('opacity', 1);
+}, { offset: '50%' });
+
+
 $('.cont-contactBtn').waypoint(function() {
     $('.cont-contactBtn').addClass('animated fadeInDown');
     $('.cont-contactBtn').css('opacity', 1);
+}, { offset: '50%' });
+
+$('#miembros').waypoint(function() {
+    $('#miembros').addClass('animated zoomIn');
+    $('#miembros').css('opacity', 1);
 }, { offset: '50%' });
 
 $('#element1').waypoint(function() {
@@ -66,9 +83,24 @@ $('#element4').waypoint(function() {
     $('#element4').css('opacity', 1);
 }, { offset: '50%' });
 
-$('.card-container').waypoint(function() {
-    $('.card-container').addClass('animated zoomIn');
-    $('.card-container').css('opacity', 1);
+$('.miembro1').waypoint(function() {
+    $('.miembro1').addClass('animated fadeInLeft');
+    $('.miembro1').css('opacity', 1);
+}, { offset: '50%' });
+
+$('.miembro2').waypoint(function() {
+    $('.miembro2').addClass('animated zoomIn');
+    $('.miembro2').css('opacity', 1);
+}, { offset: '50%' });
+
+$('.miembro3').waypoint(function() {
+    $('.miembro3').addClass('animated zoomIn');
+    $('.miembro3').css('opacity', 1);
+}, { offset: '50%' });
+
+$('.miembro4').waypoint(function() {
+    $('.miembro4').addClass('animated fadeInRight');
+    $('.miembro4').css('opacity', 1);
 }, { offset: '50%' });
 
 $("#siguenos").waypoint(function() {
@@ -78,4 +110,10 @@ $("#siguenos").waypoint(function() {
 $('.zoom').waypoint(function() {
     $('.zoom').addClass('animated zoomIn');
     $('.zoom').css('opacity', 1);
+}, { offset: '50%' });
+
+
+$('#content').waypoint(function() {
+    $('#content').addClass('animated zoomIn');
+    $('#content').css('opacity', 1);
 }, { offset: '50%' });
