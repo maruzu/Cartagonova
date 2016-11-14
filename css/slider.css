@@ -1,21 +1,20 @@
 .grid__item {
-	height: calc(65vh - 40px);
-	min-height: 460px;
-	max-width: calc(100vw - 40px);
-	background: #DDD;
-	margin: 20px;
-  margin-top: 80px;
-	padding: 100px 0;
-	z-index: 1;
-	position: relative;
-	text-align: center;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-align-items: center;
-	align-items: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-transform: translate3d(0,0,0); /* Solves Safari bug because of SVG clipping mask */
+    height: calc(65vh - 40px);
+    min-height: 460px;
+    max-width: 100%;
+    background: #DDD;
+    margin-top: 60px;
+    padding: 100px 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .grid__item p {
@@ -37,10 +36,11 @@
 .color-2 { background: #576b67; }
 .color-3 { background: #383A35; }
 .color-4 {
-  	background: #0b0c0e;
+  	background: #bebebe;
     background-image: url(../media/img/muestra.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: contain;
    }
 .color-5 { background: #fda9a9; }
 .color-7 { background: #cde7d3; }
