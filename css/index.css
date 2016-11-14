@@ -408,7 +408,7 @@ Card
 }
 
 .card .cover {
-  height: 105px;
+  height: 150px;
   overflow: hidden;
   border-radius: 4px 4px 0 0;
   /*background: repeating-linear-gradient( -45deg, #010100 , #010100 6px, #e0e0e0 5px, #e0e0e0 30px );*/
