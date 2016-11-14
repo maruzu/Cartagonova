@@ -1,5 +1,6 @@
 .grid__item {
-    min-height: 560px;
+    height: calc(65vh - 40px);
+    min-height: 460px;    
     max-width: 100%;
     background: #DDD;
     margin-top: 60px;
